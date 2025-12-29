@@ -2,7 +2,7 @@
 
 Ce projet est une application Java simulant un système de fichiers (fichiers simples et répertoires) avec une interface en ligne de commande (CLI). Réalisé dans le cadre du cours de Programmation Orientée Objet au semestre 3 sous la direction de **M. HOETOWOU**.
 
-## 🚀 Fonctionnalités implémentées
+##  Fonctionnalités implémentées
 
 L'application supporte les commandes standards suivantes :
 
@@ -15,7 +15,7 @@ L'application supporte les commandes standards suivantes :
 * **`rm [nom]`** : Suppression d'un élément.
 * **`exit`** : Sauvegarde automatique de l'état du système (Sérialisation) et quitte.
 
-## 🛠️ Architecture Technique
+## Architecture Technique
 
 Le projet repose sur les concepts avancés de la POO :
 * **Héritage et Abstraction** : Utilisation d'une classe abstraite `Fichier` pour `Repertoire` et `FichierSimple`.
@@ -23,7 +23,7 @@ Le projet repose sur les concepts avancés de la POO :
 * **Récursivité** : Implémentation d'une "Copie Profonde" (Deep Copy) pour dupliquer des arborescences entières.
 * **Persistance** : Sauvegarde de l'arborescence via la sérialisation Java (`ObjectOutputStream`).
 
-## 📁 Arborescence de démonstration
+##  Arborescence de démonstration
 
 [cite_start]Le système permet de mettre en place la structure demandée pour le TP[cite: 41, 43]:
 ```text
